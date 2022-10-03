@@ -10,10 +10,10 @@ You would want a probability of a pair of questions to be duplicates so that you
 No strict latency concerns.
 Interpretability is partially important.
 
-Performance Metric:
+# Performance Metric:
 log-loss
 Binary Confusion Matrix
-Data Overview:
+# Data Overview:
 Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate. Total we have 404290 entries. Splitted data into train and test with 70% and 30%.
 
 i derived some features from questions like no of common words, word share and some distances between questions with the help of word vectors. will discuss those below. You can check my total work 
